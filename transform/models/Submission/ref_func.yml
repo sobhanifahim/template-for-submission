@@ -1,0 +1,15 @@
+models:
+  - name: ref_func
+    description: >
+      Answer to Ref function in dbt 
+    meta:
+      owner: candidate@foodpanda.com
+    columns:
+      - country_name
+        description: country name by active vendor
+      - vendor_name
+        description: Top active vendor name by GMV        
+      - Top_Active_Vendor_GMV
+        description: Top Total GMV.
+      - Total_GMV_Per_Country
+        description: Total GMV per country.

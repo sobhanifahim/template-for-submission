@@ -1,0 +1,15 @@
+models:
+  - name: q4
+    description: >
+      Answer to Q4 
+    meta:
+      owner: candidate@foodpanda.com
+    columns:
+      - year
+        description: years by top 2 vendor 
+      - country_name
+        description: country name by top 2 vendor
+      - vendor_name
+        description: Top 2 vendor name by GMV        
+      - total_gmv
+        description: Top Total GMV.
