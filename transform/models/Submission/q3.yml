@@ -1,0 +1,13 @@
+models:
+  - name: q3
+    description: >
+      Answer to Q3 
+    meta:
+      owner: candidate@foodpanda.com
+    columns:
+      - country_name
+        description: country name by active vendor
+      - vendor_name
+        description: Top active vendor name by GMV        
+      - total_gmv
+        description: Top Total GMV.

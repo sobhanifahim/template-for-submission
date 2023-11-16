@@ -1,0 +1,13 @@
+models:
+  - name: q2
+    description: >
+      Answer to Q2 
+    meta:
+      owner: candidate@foodpanda.com
+    columns:
+      - vendor_name
+        description: vendor name by country Taiwan
+      - customer_count
+        description: customer per vendor        
+      - total_gmv
+        description: Total GMV by vendor.
